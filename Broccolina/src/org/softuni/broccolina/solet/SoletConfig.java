@@ -1,4 +1,4 @@
-package org.softuni.broccolina;
+package org.softuni.broccolina.solet;
 
 import java.util.Map;
 

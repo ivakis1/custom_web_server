@@ -1,0 +1,22 @@
+package org.softuni.broccolina.solet;
+
+import org.softuni.javache.http.HttpResponseImpl;
+
+import java.io.OutputStream;
+
+public class HttpSoletResponseImpl extends HttpResponseImpl implements HttpSoletResponse {
+    private OutputStream outputStream;
+
+    public HttpSoletResponseImpl(OutputStream outputStream) {
+        super();
+        this.outputStream = outputStream;
+    }
+
+    public OutputStream getOutputStream() {
+        return this.outputStream;
+    }
+
+    public void setOutputStream(OutputStream outputStream) {
+        this.outputStream = outputStream;
+    }
+}

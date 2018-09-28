@@ -1,11 +1,7 @@
 package org.softuni;
 
-import org.softuni.javache.Server;
-import org.softuni.javache.WebConstants;
-import org.softuni.javache.util.JavacheConfigService;
-import org.softuni.javache.util.RequestHandlerLoadingService;
-
 import java.io.IOException;
+import org.softuni.javache.*;
 
 public class StartUp {
     public static void main(String[] args) {
@@ -21,6 +17,7 @@ public class StartUp {
 
         Server server = new Server(port);
 
+        System.out.println(WebConstants.SERVER_ROOT_FOLDER_PATH);
         try {
             server.run();
         } catch (IOException e) {

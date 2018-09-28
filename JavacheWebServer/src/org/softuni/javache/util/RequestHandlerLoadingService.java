@@ -35,7 +35,8 @@ public class RequestHandlerLoadingService {
             throws NoSuchMethodException, IllegalAccessException, InvocationTargetException,
             InstantiationException {
         RequestHandler requestHandler =
-                (RequestHandler) requestHandlerClass.getDeclaredConstructor().newInstance();
+                (RequestHandler) requestHandlerClass.getDeclaredConstructor(String.class)
+                        .newInstance(WebConstants.SERVER_ROOT_FOLDER_PATH);
 
         this.requestHandlers.add(requestHandler);
     }

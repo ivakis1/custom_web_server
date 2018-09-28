@@ -62,7 +62,10 @@ public class Server {
                 clientSocket.setSoTimeout(SOCKET_TIMEOUT_MILLISECONDS);
 
                 ConnectionHandler connectionHandler
-                        = new ConnectionHandler(clientSocket, new InputStreamCachingService(), this.loggingService, this.requestHandlerLoadingService.getRequestHandlers());
+                        = new ConnectionHandler(clientSocket,
+                        new InputStreamCachingService(),
+                        this.loggingService,
+                        this.requestHandlerLoadingService.getRequestHandlers());
 
                 FutureTask<?> task = new FutureTask<>(connectionHandler, null);
                 task.run();
