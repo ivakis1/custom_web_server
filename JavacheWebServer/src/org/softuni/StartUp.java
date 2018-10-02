@@ -17,7 +17,6 @@ public class StartUp {
 
         Server server = new Server(port);
 
-        System.out.println(WebConstants.SERVER_ROOT_FOLDER_PATH);
         try {
             server.run();
         } catch (IOException e) {

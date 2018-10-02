@@ -9,12 +9,11 @@ public abstract class BaseHttpSolet implements HttpSolet {
     private SoletConfig soletConfig;
     private boolean isInitialized;
 
-    protected BaseHttpSolet(SoletConfig soletConfig) {
-        this.soletConfig = soletConfig;
-    }
+    public BaseHttpSolet(){}
 
     @Override
     public void init(SoletConfig soletConfig) {
+        this.soletConfig = soletConfig;
         this.isInitialized = true;
     }
 

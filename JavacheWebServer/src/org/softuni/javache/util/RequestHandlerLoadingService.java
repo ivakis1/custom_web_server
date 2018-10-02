@@ -63,7 +63,6 @@ public class RequestHandlerLoadingService {
                    this.loadRequestHandlerFromJar(currentHandlerClassFile);
                 }
             }
-
         }
     }
 
@@ -94,6 +93,5 @@ public class RequestHandlerLoadingService {
         this.requestHandlers = new LinkedHashSet<>();
 
             this.loadLibraryFiles(requestHandlerPriority);
-
     }
 }

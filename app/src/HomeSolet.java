@@ -1,12 +1,13 @@
 import org.softuni.broccolina.solet.BaseHttpSolet;
 import org.softuni.broccolina.solet.HttpSoletRequest;
 import org.softuni.broccolina.solet.HttpSoletResponse;
-import org.softuni.broccolina.solet.SoletConfig;
+import org.softuni.broccolina.solet.WebSolet;
 import org.softuni.javache.http.HttpStatus;
 
+@WebSolet(route = "/")
 public class HomeSolet extends BaseHttpSolet {
-    protected HomeSolet(SoletConfig soletConfig) {
-        super(soletConfig);
+
+    public HomeSolet() {
     }
 
     @Override
@@ -15,6 +16,14 @@ public class HomeSolet extends BaseHttpSolet {
 
         response.addHeader("Content-Type", "text/html");
 
-        response.setContent("<h1>Hi, from Home Solet!</h1>".getBytes());
+        response.setContent((
+                        "<head>"
+                        + "<link rel=\"stylesheet\" href=\"bootstrap.min.css\"/>"
+                        + "</head>"
+                        + "<body>"
+                        + "<h1>Hi, from Home Solet!</h1>"
+                        + "<button class=\"btn btn-primary\">Click me!</button>"
+                        + "</body>")
+                .getBytes());
     }
 }
