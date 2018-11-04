@@ -3,14 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="4d90ccc9-0286-4c86-ad11-9806b0cd0db9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Broccolina/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/artifacts/broccolina/broccolina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/artifacts/broccolina/broccolina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/SoletDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/SoletDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/util/ApplicationLoadingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/util/ApplicationLoadingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/SoletDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/SoletDispatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/util/ApplicationLoadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/util/ApplicationLoadingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavacheWebServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/lib/soletapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/broccolina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/broccolina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/toyote.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/toyote.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/HomeSolet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/resources/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/resources/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/lib/javache.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/resources/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/resources/bootstrap.min.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/artifacts/toyote/toyote.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/artifacts/toyote/toyote.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/production/Toyote_ResourceHandler/ResourceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/production/Toyote_ResourceHandler/ResourceHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/src/ResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/src/ResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ROOT/ROOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ROOT/ROOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/app/HomeSolet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/app/HomeSolet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeSolet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeSolet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +41,27 @@
     <session id="789317511">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="224" />
+          <entry key="java" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="224" />
+          <entry key="JAVA" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="css" value="2" />
+          <entry key="java" value="1" />
           <entry key="map" value="2" />
         </counts>
       </usages-collector>
@@ -50,6 +69,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="2" />
+          <entry key="JAVA" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -60,8 +80,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HomeSolet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            <state relative-caret-position="133">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IndexSolet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,6 +116,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/IndexSolet.java" />
         <option value="$PROJECT_DIR$/src/HomeSolet.java" />
       </list>
     </option>
@@ -94,7 +127,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -108,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,31 +177,17 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap.min.css" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539844163030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541346644373" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -232,16 +252,17 @@
       <updated>1538134512548</updated>
       <workItem from="1538230799426" duration="6610000" />
       <workItem from="1539450137511" duration="1284000" />
+      <workItem from="1541342920845" duration="2590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7894000" />
+    <option name="totallyTimeSpent" value="10484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,10 +312,20 @@
     <entry file="file://$PROJECT_DIR$/src/resources/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IndexSolet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeSolet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="133">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

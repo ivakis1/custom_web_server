@@ -16,6 +16,8 @@ import java.nio.file.Paths;
 public class ResourceHandler implements RequestHandler {
     private static final String APPLICATION_RESOURCES_FOLDER_NAME = "resources";
 
+    private static final String RESOURCE_NOT_FOUND_MESSAGE = "<h1 style =\"text-align: center\">The resource - %s you are looking for cannot be found!</h1>";
+
     private final String serverRootFolderPath;
 
     private boolean hasIntercepted;
@@ -37,6 +39,11 @@ public class ResourceHandler implements RequestHandler {
         return requestUrl.substring(requestUrl.lastIndexOf("/") + 1);
     }
 
+    private void notFound(String resourceName, HttpResponse response) {
+        response.setStatusCode(HttpStatus.NOT_FOUND);
+        response.addHeader("Content-Type", "text/html");
+        response.setContent( String.format(RESOURCE_NOT_FOUND_MESSAGE, resourceName).getBytes());
+    }
     private void handleResourceRequest(String resourcesFolder, String resourceName, HttpResponse response) {
         try{
             Path resourcePath = Paths.get(new URL("file:/"
@@ -55,7 +62,7 @@ public class ResourceHandler implements RequestHandler {
 
 
         }catch (URISyntaxException | IOException e) {
-            e.printStackTrace();
+            this.notFound(resourceName, response);
         }
     }
 

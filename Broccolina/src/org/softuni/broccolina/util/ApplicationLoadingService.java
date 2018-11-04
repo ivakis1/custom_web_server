@@ -7,6 +7,8 @@ import org.softuni.broccolina.solet.WebSolet;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -37,7 +39,8 @@ public class ApplicationLoadingService {
                 for (File applicationJarFile : allJarFiles) {
                     this.jarUnzipService.unzipJar(applicationJarFile);
 
-                    this.loadApplicationFromFolder(applicationJarFile.getCanonicalPath().replace(".jar", File.separator));
+                    this.loadApplicationFromFolder(applicationJarFile.getCanonicalPath().replace(".jar", File.separator),
+                            applicationJarFile.getName().replace(".jar", ""));
                 }
             }
         } catch (ClassNotFoundException | NoSuchMethodException
@@ -52,13 +55,13 @@ public class ApplicationLoadingService {
         return file.isFile() && file.getName().endsWith(".jar");
     }
 
-    private void loadApplicationFromFolder(String applicationRootFolderPath) throws IOException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+    private void loadApplicationFromFolder(String applicationRootFolderPath, String applicationName) throws IOException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         String classesRootFolderPath = applicationRootFolderPath + "classes" + File.separator;
         String librariesRootFolderPath = applicationRootFolderPath + "lib" + File.separator;
 
         this.loadApplicationLibraries(librariesRootFolderPath);
 
-        this.loadApplicationClasses(classesRootFolderPath);
+        this.loadApplicationClasses(classesRootFolderPath, applicationName);
     }
 
     private void loadApplicationLibraries(String librariesRootFolderPath)
@@ -96,7 +99,7 @@ public class ApplicationLoadingService {
         }
     }
 
-    private void loadApplicationClasses(String classesRootFolderPath) throws IOException, ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
+    private void loadApplicationClasses(String classesRootFolderPath, String applicationName) throws IOException, ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
         File classesRootDirectory = new File(classesRootFolderPath);
 
         if (!classesRootDirectory.exists() || !classesRootDirectory.isDirectory()) {
@@ -109,13 +112,13 @@ public class ApplicationLoadingService {
         URL[] urls = this.libraryClassUrls.toArray(new URL[libraryClassUrls.size()]);
         URLClassLoader ucl = new URLClassLoader(urls);
 
-        this.loadClass(classesRootDirectory, classesRootDirectory.getCanonicalPath(), ucl);
+        this.loadClass(classesRootDirectory, classesRootDirectory.getCanonicalPath(), ucl, applicationName);
     }
 
-    private void loadClass(File currentFile, String canonicalPath, URLClassLoader ucl) throws IOException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+    private void loadClass(File currentFile, String canonicalPath, URLClassLoader ucl, String applicationName) throws IOException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
         if (currentFile.isDirectory()) {
             for (File childFile : currentFile.listFiles()) {
-                this.loadClass(childFile, childFile.getCanonicalPath(), ucl);
+                this.loadClass(childFile, childFile.getCanonicalPath(), ucl, applicationName);
             }
         } else {
             if (!currentFile.getName().endsWith("class")) return;
@@ -125,20 +128,68 @@ public class ApplicationLoadingService {
                     .replace("/", ".");
 
             Class currentHandlerClassFile = ucl.loadClass(className);
-            this.loadSolet(currentHandlerClassFile);
+            this.loadSolet(currentHandlerClassFile, applicationName);
         }
     }
 
-    private void loadSolet(Class soletClass) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-        if(!BaseHttpSolet.class.getName().equals(soletClass.getSuperclass().getName())){
+    private void loadSolet(Class soletClass, String applicationName) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        if (!BaseHttpSolet.class.getName().equals(soletClass.getSuperclass().getName())) {
             return;
         }
 
-        HttpSolet soletObject = (HttpSolet) soletClass
-                .getDeclaredConstructor()
-                .newInstance();
+        Object soletObject = soletClass.getDeclaredConstructor().newInstance();
 
-        String route = soletObject.getClass().getDeclaredAnnotation(WebSolet.class).route();
-        this.loadedApplications.put(route, soletObject);
+        Object soletAnnotation = Arrays.stream(soletClass.getAnnotations())
+                .filter(x -> x.annotationType()
+                        .getSimpleName()
+                        .equals(WebSolet.class.getSimpleName()))
+                .findFirst().orElse(null);
+
+        String route = soletAnnotation.getClass().getMethod("route").invoke(soletAnnotation).toString();
+
+        if(!applicationName.equals("ROOT")){
+            route = "/" + applicationName + "/" + route;
+        }
+
+        HttpSolet httpSoletProxy = (HttpSolet) Proxy.newProxyInstance(
+                HttpSolet.class.getClassLoader(),
+                new Class[] {HttpSolet.class},
+                (proxy, method, args) -> {
+                    Method extractedMethod = Arrays.stream(soletClass.getMethods())
+                            .filter(x -> x.getName().equals(method.getName())).findFirst().orElse(null);
+
+                    Class<?>[] requestedParameters = extractedMethod.getParameterTypes();
+
+                    Object proxyRequest = Proxy.newProxyInstance(
+                            requestedParameters[0].getClassLoader(),
+                            new Class[]{requestedParameters[0]},
+                            (requestProxy, requestMethod, requestArgs) -> {
+                                Method extractedRequestMethod = Arrays.stream(args[0].getClass().getMethods())
+                                        .filter((x -> x.getName().equals(requestMethod.getName())))
+                                        .findFirst()
+                                        .orElse(null);
+
+                                return extractedRequestMethod.invoke(args[0], requestArgs);
+                            }
+                    );
+
+                    Object proxyResponse = Proxy.newProxyInstance(
+                            requestedParameters[1].getClassLoader(),
+                            new Class[]{requestedParameters[1]},
+                            (responseProxy, responseMethod, responseArgs) -> {
+                                Method extractedResponseMethod = Arrays.stream(args[1].getClass().getMethods())
+                                        .filter((x -> x.getName().equals(responseMethod.getName())))
+                                        .findFirst()
+                                        .orElse(null);
+
+                                return extractedResponseMethod.invoke(args[1], responseArgs);
+                            }
+                    );
+
+                    return extractedMethod.invoke(soletObject, proxyRequest, proxyResponse);
+                }
+        );
+
+        this.loadedApplications.put(route, httpSoletProxy);
     }
 }

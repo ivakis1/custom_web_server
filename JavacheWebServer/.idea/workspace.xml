@@ -8,14 +8,31 @@
   <component name="ChangeListManager">
     <list default="true" id="8f181ac9-9cf8-4705-b657-3a31cc56db1b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Broccolina/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/artifacts/broccolina/broccolina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/artifacts/broccolina/broccolina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/SoletDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/SoletDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/util/ApplicationLoadingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/util/ApplicationLoadingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/SoletDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/SoletDispatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/util/ApplicationLoadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/util/ApplicationLoadingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/soletapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webapps/ROOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/broccolina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/broccolina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/classes/HomeSolet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/classes/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/classes/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/classes/resources/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/classes/resources/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/lib/javache.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/resources/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapps/ROOT/resources/bootstrap.min.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.idea/artifacts/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/artifacts/ROOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/artifacts/toyote/toyote.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/artifacts/toyote/toyote.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/production/Toyote_ResourceHandler/ResourceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/out/production/Toyote_ResourceHandler/ResourceHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Toyote_ResourceHandler/src/ResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Toyote_ResourceHandler/src/ResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.idea/artifacts/ROOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/out/artifacts/ROOT/ROOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../app/out/artifacts/ROOT/ROOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/out/production/app/HomeSolet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/out/production/app/HomeSolet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/HomeSolet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/HomeSolet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,10 +115,10 @@
     <session id="-847818061">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -118,14 +135,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="ini" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Ini" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -135,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/softuni/StartUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="456">
               <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -144,11 +163,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/util/RequestHandlerLoadingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="43" column="219" selection-start-line="43" selection-start-column="219" selection-end-line="43" selection-end-column="219" />
+            <state relative-caret-position="385">
+              <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#679#680#0" expanded="true" />
@@ -158,18 +177,25 @@
                 <element signature="e#1009#1010#0" expanded="true" />
                 <element signature="method#loadRequestHandlerFromJar#0;class#RequestHandlerLoadingService#0" />
                 <element signature="method#loadJarFile#0;class#RequestHandlerLoadingService#0" />
-                <element signature="method#loadLibraryFiles#0;class#RequestHandlerLoadingService#0" />
-                <element signature="method#loadRequestHandlers#0;class#RequestHandlerLoadingService#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/WebConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1375">
-              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            <state relative-caret-position="534">
+              <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -177,7 +203,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/ConnectionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="806">
               <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
@@ -198,6 +224,7 @@
       <find>requestHandlers</find>
       <find>;</find>
       <find>System</find>
+      <find>ROOT</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -345,7 +372,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538242169433" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Broccolina" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -354,8 +381,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\custom_web_server\custom_web_server\JavacheWebServer\target\classes\webapps" />
       <recent name="C:\Users\User\Desktop\custom_web_server\custom_web_server\JavacheWebServer\target\classes\lib" />
+      <recent name="C:\Users\User\Desktop\custom_web_server\custom_web_server\JavacheWebServer\target\classes\webapps" />
       <recent name="C:\Users\User\Desktop\custom_web_server\custom_web_server\JavacheWebServer\target\classes\webapps\ROOT\lib" />
       <recent name="C:\Users\User\Desktop\custom_web_server\custom_web_server\JavacheWebServer\lib" />
       <recent name="C:\Users\ivo.hristov\Desktop\hand-made_web_server\custom_web_server\JavacheWebServer\target\classes\webapps" />
@@ -465,17 +492,18 @@
       <workItem from="1537713284905" duration="14591000" />
       <workItem from="1538223618680" duration="15149000" />
       <workItem from="1539450094883" duration="3497000" />
+      <workItem from="1541336300142" duration="5425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40059000" />
+    <option name="totallyTimeSpent" value="45484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.205625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +514,7 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.33647376" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4993573" weight="0.74831766" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4993573" weight="0.33638743" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.32974428" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -622,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/WebConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/api/RequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -643,34 +664,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/softuni/StartUp.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/webapps/summer/classes/IndexSolet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="-78">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#817#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/WebConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/ConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="234">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/util/RequestHandlerLoadingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="43" column="219" selection-start-line="43" selection-start-column="219" selection-end-line="43" selection-end-column="219" />
+        <state relative-caret-position="385">
+          <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#679#680#0" expanded="true" />
@@ -680,9 +693,31 @@
             <element signature="e#1009#1010#0" expanded="true" />
             <element signature="method#loadRequestHandlerFromJar#0;class#RequestHandlerLoadingService#0" />
             <element signature="method#loadJarFile#0;class#RequestHandlerLoadingService#0" />
-            <element signature="method#loadLibraryFiles#0;class#RequestHandlerLoadingService#0" />
-            <element signature="method#loadRequestHandlers#0;class#RequestHandlerLoadingService#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/softuni/StartUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/ConnectionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/softuni/javache/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="73" column="12" lean-forward="true" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -3,14 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="ee1f5d68-21fb-4782-8867-b5a3527dec2f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Broccolina/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/artifacts/broccolina/broccolina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/artifacts/broccolina/broccolina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/SoletDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/SoletDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/util/ApplicationLoadingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/out/production/Broccolina/org/softuni/broccolina/util/ApplicationLoadingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/SoletDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/SoletDispatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/util/ApplicationLoadingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Broccolina/src/org/softuni/broccolina/util/ApplicationLoadingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavacheWebServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/lib/soletapi.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.idea/artifacts/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/artifacts/ROOT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/broccolina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/broccolina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/toyote.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../JavacheWebServer/target/classes/lib/toyote.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/HomeSolet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/resources/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/classes/resources/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/lib/javache.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/resources/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavacheWebServer/target/classes/webapps/ROOT/resources/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResourceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResourceHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/.idea/artifacts/ROOT.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/out/artifacts/ROOT/ROOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../app/out/artifacts/ROOT/ROOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/out/production/app/HomeSolet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app/out/production/app/HomeSolet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/HomeSolet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/HomeSolet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +38,11 @@
     <session id="1955880990">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,12 +57,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="825" />
+          <entry key="java" value="1142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="825" />
+          <entry key="JAVA" value="1142" />
         </counts>
       </usages-collector>
     </session>
@@ -56,11 +72,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ResourceHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+            <state relative-caret-position="238">
+              <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getApplicationName#0;class#ResourceHandler#0" />
+                <element signature="method#handleRequest#0;class#ResourceHandler#0" />
               </folding>
             </state>
           </provider>
@@ -91,7 +108,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -105,8 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,8 +168,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538242509504" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Broccolina" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541346447437" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -188,16 +205,17 @@
       <updated>1538235453831</updated>
       <workItem from="1538235457594" duration="6871000" />
       <workItem from="1539450046425" duration="1246000" />
+      <workItem from="1541345592931" duration="873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8117000" />
+    <option name="totallyTimeSpent" value="8990000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20886889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -236,11 +254,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ResourceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="18" column="93" lean-forward="true" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getApplicationName#0;class#ResourceHandler#0" />
+            <element signature="method#handleRequest#0;class#ResourceHandler#0" />
           </folding>
         </state>
       </provider>
